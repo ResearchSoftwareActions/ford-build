@@ -1,8 +1,8 @@
 ---
 
-name: FORD Documenation
+name: FORD Documentation
 author: Jim Madge
-description: Build documenation for a Fortran project using FORD
+description: Build documentation for a Fortran project using FORD
 inputs:
   project_file:
     description: Name of the FORD project file
