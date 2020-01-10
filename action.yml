@@ -16,3 +16,6 @@ runs:
   image: Dockerfile
   args:
     - ${{ inputs.project_file }}
+branding:
+  icon: book
+  color: orange
