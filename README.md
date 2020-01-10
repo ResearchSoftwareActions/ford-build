@@ -1,4 +1,4 @@
-# FORD docker action
+# FORD Documentation Action
 
 This action builds documentation for a Fortran project using
 [FORD](https://github.com/Fortran-FOSS-Programmers/ford). The documentation can
@@ -19,6 +19,9 @@ Path to the directory where documentation is written. This is useful for a
 subsequent deployment step.
 
 ## Example usage
+
+In addition to building the documentation using this action, the following
+example also deploys the documentation to a GitHub pages branch.
 
 ```yaml
 name: Docs
