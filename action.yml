@@ -1,0 +1,18 @@
+---
+
+name: FORD Documenation
+author: Jim Madge
+description: Build documenation for a Fortran project using FORD
+inputs:
+  project_file:
+    description: Name of the FORD project file
+    required: true
+    default: project-file.md
+outputs:
+  output_dir:
+    description: Path to the directory where documentation is written
+runs:
+  using: docker
+  image: Dockerfile
+  args:
+    - ${{ inputs.project_file }}
