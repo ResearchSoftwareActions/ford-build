@@ -14,5 +14,5 @@ echo "Documentation written to ${OUTPUT_DIR}"
 echo ::set-output name=output_dir::$OUTPUT_DIR
 
 # Build documentation
-echo "Building documenation"
+echo "Building documentation"
 ford ${ROOT}/$1
